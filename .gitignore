@@ -142,6 +142,5 @@ cython_debug/
 
 # ignore assets
 assets/
-data/
 logging/
 pystore/
