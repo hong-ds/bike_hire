@@ -12,8 +12,8 @@ For question 2, prediction between SEPT 4 - SEPT10, please review the notebook p
 
 
 For question 3, spliting the model for member/ non-member does seem to improve the model performance, 
-which should also be observed in the first time and seasonal analysis. Member/Non-member, they do 
-user the bike hire service at a different time in the week and different months as well, namely, 
+which should also be observed in the first **time and seasonal analysis**. Member/Non-member, they do 
+use the bike hire service at a different time in the week and different months as well, namely, 
 non-member tend to hire bike more on the weekend, and in summer time in July and August
 
 If you would like to run the notebook or change settings, please set up your enviroment as follow. 
