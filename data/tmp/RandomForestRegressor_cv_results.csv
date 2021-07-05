@@ -1,0 +1,2 @@
+,split0_test_score,split1_test_score,split2_test_score,mean_test_score,std_test_score,rank_test_score,mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_max_depth,param_min_samples_leaf,param_min_samples_split,param_n_estimators,params
+0,-0.9693554933703603,-0.8335297086851456,-0.9193486951665506,-0.9074112990740187,0.05608943462864207,1,108.03408153851827,45.606010746138416,2.0675764083862305,0.02224593806993892,21,7,9,66,"OrderedDict([('max_depth', 21), ('min_samples_leaf', 7), ('min_samples_split', 9), ('n_estimators', 66)])"
