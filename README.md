@@ -1,10 +1,20 @@
 # bike_hire
 
 ## Description: 
-To check out the bike hire analysis, please go into the jupyter notebook folder. It has three parts: 
+To check out the bike hire analysis, please go into the jupyter notebook folder. It has five parts: 
 1. time and seasonal analysis
 2. spatial analysis
 3. prediction
+4. prediction -member 
+5. prediction - nonmember
+
+For question 2, prediction between SEPT 4 - SEPT10, please review the notebook prediction. 
+
+
+For question 3, spliting the model for member/ non-member does seem to improve the model performance, 
+which should also be observed in the first **time and seasonal analysis**. Member/Non-member, they do 
+use the bike hire service at a different time in the week and different months as well, namely, 
+non-member tend to hire bike more on the weekend, and in summer time in July and August
 
 If you would like to run the notebook or change settings, please set up your enviroment as follow. 
 
