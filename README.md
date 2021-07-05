@@ -36,3 +36,8 @@ There are three ways to set up your enviroment:
   $ jupyter notebook
 ```
 3. use your own virtual env and install the requirement.txt 
+
+## Further thoughts
+1. The preliminary analysis should give a good retionale on which features we should consider for the model training. If time allows, I could try better clustering algo to create more grandular clusters to improve prediction performance. or feature crossing betwen bucketised latitude and longitude. 
+2. It will be hard to train and predict daily numbers ONLY on single route between two stations because the data are quite noisy. to acheieve better performance, in this excercise, I focus training on macro features. 
+3. While I have put in place a basic framework to do do evaluating different model performances with Baysian Hyperparameter tuning, I have NOT properly run it myself because of time and machine limitation. for the purpose of showing prediction, I use a toy xgboost model without CV. To get the best performance, I will need to increase the iterations for Baysian Hyperparmater tuning and run the model eveluation pipeline. Then use the best model for doing the prediction. 
